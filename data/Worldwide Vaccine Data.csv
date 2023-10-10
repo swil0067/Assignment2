@@ -1,4 +1,4 @@
-Country,Doses administered per 100 people,Total doses administered,% of population vaccinated,% of population fully vaccinated
+Country,Doses administered per 100 people,Total doses administered,per_pop_vacc,per_pop_fully_vacc
 Afghanistan,33,12526397,30.0,28.0
 Albania,106,3025728,47.0,44.0
 Algeria,35,15267442,18.0,15.0

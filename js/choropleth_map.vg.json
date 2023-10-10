@@ -7,10 +7,10 @@
         "type": "equalEarth"
     },
     "data": {
-        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+        "url": "https://raw.githubusercontent.com/swil0067/Assignment2/9e68e375bb71dab32f99ccba63401cf35f96cf44/js/ne_110m.json",
         "format": {
             "type": "topojson",
-            "feature": "ne_110m_admin_0_countries"
+            "feature": "ne_110m"
         }
     },
     "transform": [
@@ -18,17 +18,17 @@
             "lookup": "properties.NAME",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/covid_10_10_2020.csv"
+                    "url": "https://raw.githubusercontent.com/swil0067/Assignment2/9e68e375bb71dab32f99ccba63401cf35f96cf44/data/Worldwide%20Vaccine%20Data.csv"
                 },
                 "key": "Country",
                 "fields": [
-                    "Active"
+                    "per_pop_vacc"
                 ]
             }
         },
         {
-            "calculate": "datum.Active + 0.1",
-            "as": "Active Cases"
+            "calculate": "datum.per_pop_vacc + 0.1",
+            "as": "per_pop_vacc"
         }
     ],
     "mark": {
@@ -36,10 +36,10 @@
     },
     "encoding": {
         "color": {
-            "field": "Active Cases",
+            "field": "per_pop_vacc",
             "type": "quantitative",
             "scale": {
-                "type": "log"
+                "type": "linear"
             }
         },
         "tooltip": [
@@ -49,7 +49,7 @@
                 "title": "Country"
             },
             {
-                "field": "Active",
+                "field": "per_pop_vacc",
                 "type": "quantitative"
             }
         ]
