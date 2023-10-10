@@ -7,10 +7,10 @@
         "type": "equalEarth"
     },
     "data": {
-        "url": "https://raw.githubusercontent.com/swil0067/Assignment2/9e68e375bb71dab32f99ccba63401cf35f96cf44/js/ne_110m.json",
+        "url": "https://raw.githubusercontent.com/swil0067/Assignment2/main/js/ne_110m_admin_0_countries.topojson",
         "format": {
             "type": "topojson",
-            "feature": "ne_110m"
+            "feature": "ne_110m_admin_0_countries"
         }
     },
     "transform": [
@@ -18,17 +18,13 @@
             "lookup": "properties.NAME",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/swil0067/Assignment2/9e68e375bb71dab32f99ccba63401cf35f96cf44/data/Worldwide%20Vaccine%20Data.csv"
+                    "url": "https://raw.githubusercontent.com/swil0067/Assignment2/main/data/Worldwide%20Vaccine%20Data.csv"
                 },
                 "key": "Country",
                 "fields": [
-                    "per_pop_vacc"
+                    "Percent of Population Vaccinated"
                 ]
             }
-        },
-        {
-            "calculate": "datum.per_pop_vacc + 0.1",
-            "as": "per_pop_vacc"
         }
     ],
     "mark": {
@@ -36,7 +32,7 @@
     },
     "encoding": {
         "color": {
-            "field": "per_pop_vacc",
+            "field": "Percent of Population Vaccinated",
             "type": "quantitative",
             "scale": {
                 "type": "linear"
@@ -49,7 +45,7 @@
                 "title": "Country"
             },
             {
-                "field": "per_pop_vacc",
+                "field": "Percent of Population Vaccinated",
                 "type": "quantitative"
             }
         ]

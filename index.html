@@ -12,13 +12,14 @@
 
     </head>
 
-    <body>
+    <body class="background">
+        <h1>Title</h1>
 
         <div id="choropleth_map"></div>
 
         <script type="text/javascript">
 
-            var spec2 = "js/choropleth_map.vg.json";
+            var spec2 = "js/vaccinated_by_country.vg.json";
             vegaEmbed('#choropleth_map', spec2).then(function (result) {
                 // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
