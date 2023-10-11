@@ -1,3 +1,26 @@
 .background {
-    background-color: aqua;
+    background-color: rgb(223, 247, 255);
 }
+
+.title {
+    font-size: large;
+    text-align: center;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+#vaccinated_by_country {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }

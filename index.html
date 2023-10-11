@@ -13,17 +13,38 @@
     </head>
 
     <body class="background">
-        <h1>Title</h1>
+        <h1 class="title">Vaccinations Throughout the World</h1>
 
-        <div id="choropleth_map"></div>
+        <div class="content">
+            <div id="vaccinated_by_country">
 
-        <script type="text/javascript">
+                <script type="text/javascript">
 
-            var spec2 = "js/vaccinated_by_country.vg.json";
-            vegaEmbed('#choropleth_map', spec2).then(function (result) {
-                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-            }).catch(console.error);
-        </script>
+                    var spec2 = "js/vaccinated_by_country.vg.json";
+                    vegaEmbed('#vaccinated_by_country', spec2).then(function (result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+                </script>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <h2>Vaccinations over Time</h2>
+                    <div id="vaccinations_over_time">
+
+                        <script type="text/javascript">
+
+                            var spec2 = "js/vaccinations_over_time.vg.json";
+                            vegaEmbed('#vaccinations_over_time', spec2).then(function (result) {
+                                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                            }).catch(console.error);
+                        </script>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="column">test 2</div>
+            </div>
+        </div>
 
     </body>
 
