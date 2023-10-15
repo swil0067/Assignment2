@@ -3,13 +3,19 @@
     "width": 400,
     "background": "rgb(223, 247, 255)",
     "data": {
-        "url": "https://raw.githubusercontent.com/swil0067/Assignment2/main/data/air.csv"
+        "url": "https://raw.githubusercontent.com/swil0067/Assignment2/main/data/air.csv",
+        "format": {
+            "type": "csv",
+            "parse": {
+                "DATE_AS_AT": "date:'%d/%m/%Y'"
+            }
+        }
     },
     "encoding": {
         "x": {
-            "timeUnit": "yearmonthdate",
             "field": "DATE_AS_AT",
-            "title": "Date"
+            "title": "Date",
+            "timeUnit": "yearmonthdate"
         },
         "y": {
             "title": "Percent"
@@ -31,7 +37,7 @@
                     {
                         "field": "DATE_AS_AT",
                         "title": "Date",
-                        "type": "temporal"
+                        "timeUnit": "yearmonthdate"
                     },
                     {
                         "field": "AIR_AUS_16_PLUS_FIRST_DOSE_PCT",
@@ -55,8 +61,7 @@
                 "tooltip": [
                     {
                         "field": "DATE_AS_AT",
-                        "title": "Date",
-                        "type": "temporal"
+                        "title": "Date"
                     },
                     {
                         "field": "AIR_AUS_16_PLUS_SECOND_DOSE_PCT",
@@ -80,8 +85,7 @@
                 "tooltip": [
                     {
                         "field": "DATE_AS_AT",
-                        "title": "Date",
-                        "type": "temporal"
+                        "title": "Date"
                     },
                     {
                         "field": "AIR_AUS_16_PLUS_THIRD_DOSE_PCT",
