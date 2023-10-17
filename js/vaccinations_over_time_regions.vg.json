@@ -1,0 +1,106 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 450,
+    "background": "rgb(223, 247, 255)",
+    "data": {
+        "url": "https://raw.githubusercontent.com/swil0067/Assignment2/main/data/vaccine_regions.csv",
+        "format": {
+            "type": "csv",
+            "parse": {
+                "date": "date:'%d/%m/%Y'"
+            }
+        }
+    },
+    "encoding": {
+        "x": {
+            "field": "date",
+            "title": "Date",
+            "timeUnit": "yearmonthdate",
+            "type": "temporal"
+        },
+        "y": {
+            "field": "new_people_vaccinated",
+            "title": "Number of New Vaccinations",
+            "type": "quantitative",
+            "axis": {
+                "format": ".2s"
+            }
+        },
+        "tooltip": [
+            {
+                "field": "Region"
+            },
+            {
+                "field": "date",
+                "title": "Date",
+                "type": "temporal",
+                "format": "%b %d %Y"
+            },
+            {
+                "field": "new_people_vaccinated",
+                "title": "New Vaccinations",
+                "type": "quantitative",
+                "format": ".2s"
+            }
+        ],
+        "color": {
+            "condition": {
+                "param": "hover",
+                "field": "Region",
+                "type": "nominal"
+            },
+            "field": "Region",
+            "type": "nominal",
+            "value": "grey",
+            "scale": {
+                "scheme": "dark2"
+            }
+        },
+        "opacity": {
+            "condition": {
+                "param": "hover",
+                "value": 1
+            },
+            "value": 0.2
+        },
+        "text": {
+            "field": "new_people_vaccinated",
+            "formatType": "number"
+        }
+    },
+    "layer": [
+        {
+            "description": "transparent layer",
+            "params": [
+                {
+                    "name": "hover",
+                    "value": [
+                        {
+                            "Region": "Africa"
+                        }
+                    ],
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "Region"
+                        ],
+                        "on": "mouseover"
+                    }
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "strokeWidth": 8,
+                "stroke": "transparent"
+            }
+        },
+        {
+            "mark": "line"
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
-    "height": 500,
+    "height": 350,
+    "width": "container",
     "background": "rgb(223, 247, 255)",
     "projection": {
         "type": "equalEarth"
@@ -33,6 +33,7 @@
     "encoding": {
         "color": {
             "field": "Percent of Population Vaccinated",
+            "title": "% Population Vaccinated",
             "type": "quantitative",
             "scale": {
                 "type": "linear"
@@ -46,6 +47,7 @@
             },
             {
                 "field": "Percent of Population Vaccinated",
+                "title": "% Population Vaccinated",
                 "type": "quantitative"
             }
         ]

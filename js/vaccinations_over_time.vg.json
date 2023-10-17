@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 400,
+    "width": 450,
     "background": "rgb(223, 247, 255)",
     "data": {
         "url": "https://raw.githubusercontent.com/swil0067/Assignment2/main/data/air.csv",
@@ -26,7 +26,7 @@
             "mark": {
                 "type": "line",
                 "interpolate": "monotone",
-                "color": "green"
+                "color": "purple"
             },
             "encoding": {
                 "y": {
@@ -37,14 +37,19 @@
                     {
                         "field": "DATE_AS_AT",
                         "title": "Date",
-                        "timeUnit": "yearmonthdate"
+                        "timeUnit": "yearmonthdate",
+                        "type": "temporal",
+                        "format": "%b %d %Y"
                     },
                     {
                         "field": "AIR_AUS_16_PLUS_FIRST_DOSE_PCT",
-                        "title": "Percent of Pop. with First Dose",
+                        "title": "Percent of Population",
                         "type": "quantitative"
                     }
-                ]
+                ],
+                "color": {
+                    "datum": "First Dose"
+                }
             }
         },
         {
@@ -61,14 +66,19 @@
                 "tooltip": [
                     {
                         "field": "DATE_AS_AT",
-                        "title": "Date"
+                        "title": "Date",
+                        "type": "temporal",
+                        "format": "%b %d %Y"
                     },
                     {
                         "field": "AIR_AUS_16_PLUS_SECOND_DOSE_PCT",
-                        "title": "Percent of Pop. with Second Dose",
+                        "title": "Percent of Population",
                         "type": "quantitative"
                     }
-                ]
+                ],
+                "color": {
+                    "datum": "Second Dose"
+                }
             }
         },
         {
@@ -85,14 +95,19 @@
                 "tooltip": [
                     {
                         "field": "DATE_AS_AT",
-                        "title": "Date"
+                        "title": "Date",
+                        "type": "temporal",
+                        "format": "%b %d %Y"
                     },
                     {
                         "field": "AIR_AUS_16_PLUS_THIRD_DOSE_PCT",
-                        "title": "Percent of Pop. with Third Dose",
+                        "title": "Percent of Population",
                         "type": "quantitative"
                     }
-                ]
+                ],
+                "color": {
+                    "datum": "Third Dose"
+                }
             }
         }
     ]

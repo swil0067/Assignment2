@@ -1,0 +1,191 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "background": "rgb(223, 247, 255)",
+    "data": {
+        "url": "https://raw.githubusercontent.com/swil0067/Assignment2/main/data/vaccine_regions.csv",
+        "format": {
+            "type": "csv",
+            "parse": {
+                "date": "date:'%d/%m/%Y'"
+            }
+        }
+    },
+    "encoding": {
+        "x": {
+            "field": "date",
+            "title": "Date",
+            "timeUnit": "yearmonthdate"
+        },
+        "y": {
+            "title": "number of new vaccinations"
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "y": {
+                    "field": "Asia",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "title": "Continent"
+                    },
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "yearmonthdate"
+                    },
+                    {
+                        "field": "Asia",
+                        "title": "New Vaccinations in Asia",
+                        "type": "quantitative"
+                    }
+                ],
+                "color": {
+                    "datum": "Asia"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "y": {
+                    "field": "Oceania",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "yearmonthdate"
+                    },
+                    {
+                        "field": "Oceania",
+                        "title": "New Vaccinations in Oceania",
+                        "type": "quantitative"
+                    }
+                ],
+                "color": {
+                    "datum": "Oceania"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "y": {
+                    "field": "North America",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "yearmonthdate"
+                    },
+                    {
+                        "field": "North America",
+                        "title": "New Vaccinations in North America",
+                        "type": "quantitative"
+                    }
+                ],
+                "color": {
+                    "datum": "North America"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "y": {
+                    "field": "South America",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "yearmonthdate"
+                    },
+                    {
+                        "field": "South America",
+                        "title": "New Vaccinations in South America",
+                        "type": "quantitative"
+                    }
+                ],
+                "color": {
+                    "datum": "South America"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "y": {
+                    "field": "Europe",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "yearmonthdate"
+                    },
+                    {
+                        "field": "Europe",
+                        "title": "New Vaccinations in Europe",
+                        "type": "quantitative"
+                    }
+                ],
+                "color": {
+                    "datum": "Europe"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "y": {
+                    "field": "Africa",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "yearmonthdate"
+                    },
+                    {
+                        "field": "Africa",
+                        "title": "New Vaccinations in Africa",
+                        "type": "quantitative"
+                    }
+                ],
+                "color": {
+                    "datum": "Africa"
+                }
+            }
+        }
+    ]
+}
