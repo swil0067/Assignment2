@@ -19,12 +19,9 @@
             "type": "temporal"
         },
         "y": {
-            "field": "new_people_vaccinated",
-            "title": "Number of New Vaccinations",
-            "type": "quantitative",
-            "axis": {
-                "format": ".2s"
-            }
+            "field": "percent_of_pop_newly_vacc",
+            "title": "% of Population Newly Vaccinationed",
+            "type": "quantitative"
         },
         "tooltip": [
             {
@@ -38,9 +35,15 @@
             },
             {
                 "field": "new_people_vaccinated",
-                "title": "New Vaccinations",
+                "title": "Total New Vaccinations",
                 "type": "quantitative",
                 "format": ".2s"
+            },
+            {
+                "field": "percent_of_pop_newly_vacc",
+                "title": "% of Population Newly Vaccinated",
+                "type": "quantitative",
+                "format": ".5%"
             }
         ],
         "color": {
@@ -64,7 +67,7 @@
             "value": 0.2
         },
         "text": {
-            "field": "new_people_vaccinated",
+            "field": "percent_of_pop_newly_vacc",
             "formatType": "number"
         }
     },
