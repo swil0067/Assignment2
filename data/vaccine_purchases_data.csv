@@ -1,77 +1,77 @@
 ﻿country,Latitude,Longitude,sum_of_doses_purchased,population,doses_per_capita,income_level
-San Marino,43.77,12.42,7500,33860,0.221500295,High income 
-Belarus ,53,28,100000,44938712,0.002225253,Upper middle income 
-Mauritius,-20.28,57.55,100000,1265711,0.079006977,High income 
-Senegal,14,-14,200000,16296364,0.012272676,lower middle income 
-Somalia,10,49,200000,15442905,0.012950931,Low income
-Benin,9.5,2.25,203000,11801151,0.017201712,Lower middle income 
-Bahrain,26,50.55,300000,1641172,0.182796197,High income 
-Mongolia,46,105,300000,3225167,0.093018439,Lower middle income 
-Oman,21,57,370000,4974986,0.074372069,High income
-Armenia,40,45,1000000,96462106,0.010366765,Upper middle income 
-North Macedonia,41.83,22,1000000,2083459,0.479971048,Upper middle income 
-Jordan,31,36,1150000,10101694,0.113842292,Upper middle income 
-Honduras,15,-86.5,1470000,9746117,0.1508293,Lower middle income
-Albania ,41,20,1500000,2854191,0.525542965,Upper middle income 
-Cambodia,13,105,1600000,16486542,0.097048854,Lower middle income 
-Pakistan,30,70,1770000,216565318,0.008173054,Lower middle income
-Kazakhstan,48,68,2000000,18513930,0.108026767,Upper middle income 
-Slovakia,48.67,19.5,2000000,5454073,0.366698429,High income
-Uzbekistan,41,64,2000000,33580650,0.059558109,Lower middle income
-Zimbabwe,-20,30,2000000,100388073,0.019922685,Lower middle income 
-Palestine ,32,35.25,2035000,5168185,0.393755255,Lower middle income 
-Iran,32,53,2500000,82913906,0.030151758,Upper middle income 
-Tunisia,34,9,2500000,11694719,0.213771703,Lower middle income 
-Lebanon,33.83,35.83,3000000,6855713,0.437591247,Upper middle income 
-United Arab Emirates ,24,54,3000000,9770529,0.307045811,High income 
-Uruguay,-33,-56,3700000,3461734,1.068828512,High income 
-Kuwait ,29.34,47.66,4000000,4207083,0.950777534,High Income 
-El Salvador,13.83,-88.92,4150000,6453553,0.643056623,Lower middle income 
-Iraq,33,44,4500000,39309783,0.11447532,Upper middle income 
-Panama ,9,-80,5000000,4246439,1.177457159,High income
-Costa Rica ,10,-84,5000075,5047561,0.990592288,Upper middle income 
-Serbia,44,21,5500000,6944975,0.791939496,Upper middle income 
-Hungary,47,20,7000000,9769949,0.716482757,High income 
-Saudi Arabia,25,45,7500000,34268528,0.218859707,High income
-Bolivia,-17,-65,8100000,11513100,0.703546395,Lower middle income 
-Azerbaijan,40.5,47.5,9000000,10023318,0.897906262,Upper middle income 
-Venezuela,8,-66,10000000,28515829,0.350682423,Upper middle income 
-Hong Kong,22.25,114.17,15000000,7507400,1.998028612,High income
-Ecuador ,-2,-77.5,15020000,17373662,0.864527006,Upper middle income
-Sri Lanka,7,81,17500000,21803000,0.802641838,Lower middle income 
-Dominican Republic,19,-70.67,18010000,10738959,1.677071306,Upper middle income 
-Switzerland,47,8,24000000,8574832,2.798888655,High income 
-Nepal,28,84,27000000,28608710,0.943768524,Lower middle income 
-Israel ,31.5,34.75,28000000,9053300,3.092794892,High income
-New Zealand,-41,174,30300000,4917000,6.162294082,High income 
-South Africa,-29,24,32000000,58558270,0.546464231,Upper middle income 
-Bangladesh,24,90,33000000,163046161,0.20239667,Lower middle income
-Ukraine,49,32,33200000,44385155,0.747997838,Lower middle income 
-Myanmar,22,98,33500000,54045420,0.619849008,Lower middle income 
-Taiwan ,23.5,121,40000000,23839313,1.677900701,High income 
-Columbia,4,-72,46500000,50339443,0.923728934,Upper middle income 
-Malaysia ,2.5,112.5,55300000,31949777,1.730841502,Upper middle income
-Argentina,-34,-64,34000000,44938712,0.756585992,Upper middle income 
-Peru,-10,-76,72000000,32510453,2.214672309,Upper middle income 
-Thailand ,15,100,73100000,69625582,1.049901457,Upper middle income 
-Vietnam,16,106,80000000,96462106,0.829341213,Lower middle income
-Philippines,13,122,90000000,108116615,0.832434497,Lower middle income
-Chile ,-30,-71,90200000,18952038,4.759382606,High income 
-Morocco,32,-5,91000000,36471769,2.49508051,Lower middle income 
-Egypt,27,30,95000000,100388073,0.946327558,Lower middle income
-China ,35,105,100000000,1397715000,0.071545344,Upper middle income 
-Turkey ,39,35,104500000,83429615,1.252552826,Upper middle income 
-South Korea,37,127.5,126000000,51709098,2.436708527,High income 
-Latin America without Brazil ,4.44,61.33,127600000,446000000,0.286098655,Upper middle income 
-Australia,-27,133,144800000,25364307,5.708809628,High income 
-Mexico ,23,-102,177830000,127575529,1.393919362,Upper middle income 
-India,20,77,205500000,1366417754,0.150393245,Lower middle income
-Indonesia,-5,120,240500000,270625568,0.888681738,Upper middle income
-African Union ,-8.78,34.51,270000000,1359998350,0.198529653,Low income 
-Japan,36,138,314000000,126264931,2.486834607,High income 
-Canada,60,-95,316000000,37589262,8.406656135,High income 
-Brazil,-10,-55,370000000,211049527,1.753142996,Upper middle income
-United Kingdom,54,-2,457000000,66834406,6.837795491,High income
-COVAX,,,1120000000,,,Global Entity
-United States of America,38,-97,1210000000,328239523,3.686332435,High income 
-European Union,49.65,14,1885000000,447512041,4.212177165,High income 
+African Union ,-8.78,34.51,770000000,250000000,3.08,Low Income
+Albania ,41,20,1500000,500000,3,Upper Middle Income
+Argentina,-34,-64,57600000,11800000,4.881355932,Upper Middle Income
+Armenia,40,45,1000000,500000,2,Upper Middle Income
+Australia,-27,133,144800000,26900000,5.382899628,High Income
+Azerbaijan,40.5,47.5,9000000,4500000,2,Upper Middle Income
+Bahrain,26,50.55,300000,150000,2,High Income
+Bangladesh,24,90,33000000,16500000,2,Lower Middle Income
+Belarus ,53,28,100000,50000,2,Upper Middle Income
+Benin,9.5,2.25,203000,101500,2,Lower Middle Income
+Bolivia,-17,-65,8100000,1300000,6.230769231,Lower Middle Income
+Brazil,-10,-55,370000000,5000000,74,Upper Middle Income
+Cambodia,13,105,1600000,50000,32,Lower Middle Income
+Canada,60,-95,316000000,1000000,316,High Income
+Chile ,-30,-71,90200000,5000000,18.04,High Income
+China ,35,105,100000000,0,#DIV/0!,Upper Middle Income
+Colombia,4,-72,46500000,3750000,12.4,Upper Middle Income
+Costa Rica ,10,-84,5000075,500000,10.00015,Upper Middle Income
+COVAX,,,1120000000,85000000,,Global Entity
+Dominican Republic,19,-70.67,18010000,5000000,3.602,Upper Middle Income
+Ecuador ,-2,-77.5,15020000,2500000,6.008,Upper Middle Income
+Egypt,27,30,95000000,15000000,6.333333333,Lower Middle Income
+El Salvador,13.83,-88.92,4150000,1075000,3.860465116,Lower Middle Income
+European Union,49.65,14,1885000000,0,#DIV/0!,High Income
+Honduras,15,-86.5,1470000,700000,2.1,Lower Middle Income
+Hong Kong,22.25,114.17,15000000,3750000,4,High Income
+Hungary,47,20,7000000,1000000,7,High Income
+India,20,77,205500000,50000000,4.11,Lower Middle Income
+Indonesia,-5,120,240500000,25000000,9.62,Upper Middle Income
+Iran,32,53,2500000,1000000,2.5,Upper Middle Income
+Iraq,33,44,4500000,1000000,4.5,Upper Middle Income
+Israel ,31.5,34.75,28000000,5000000,5.6,High Income
+Japan,36,138,314000000,60000000,5.233333333,High Income
+Jordan,31,36,1150000,500000,2.3,Upper Middle Income
+Kazakhstan,48,68,2000000,1000000,2,Upper Middle Income
+Kuwait ,29.34,47.66,4000000,1500000,2.666666667,High Income
+Latin America without Brazil ,4.44,61.33,127600000,63800000,2,Upper Middle Income
+Lebanon,33.83,35.83,3000000,1000000,3,Upper Middle Income
+Malaysia ,2.5,112.5,55300000,3200000,17.28125,Upper Middle Income
+Mauritius,-20.28,57.55,100000,50000,2,High Income
+Mexico ,23,-102,177830000,0,#DIV/0!,Upper Middle Income
+Mongolia,46,105,300000,150000,2,Lower Middle Income
+Morocco,32,-5,91000000,20500000,4.43902439,Lower Middle Income
+Myanmar,22,98,33500000,16750000,2,Lower Middle Income
+Nepal,28,84,27000000,1000000,27,Lower Middle Income
+New Zealand,-41,174,30300000,3800000,7.973684211,High Income
+North Macedonia,41.83,22,1000000,100000,10,Upper Middle Income
+Oman,21,57,370000,185000,2,High Income
+Pakistan,30,70,1770000,100000,17.7,Lower Middle Income
+Palestine ,32,35.25,2035000,1000000,2.035,Lower Middle Income
+Panama ,9,-80,5000000,0,#DIV/0!,High Income
+Peru,-10,-76,72000000,19000000,3.789473684,Upper Middle Income
+Philippines,13,122,90000000,8500000,10.58823529,Lower Middle Income
+San Marino,43.77,12.42,7500,3750,2,High Income
+Saudi Arabia,25,45,7500000,2250000,3.333333333,High Income
+Senegal,14,-14,200000,100000,2,Lower Middle Income
+Serbia,44,21,5500000,1500000,3.666666667,Upper Middle Income
+Slovakia,48.67,19.5,2000000,1000000,2,High Income
+Somalia,10,49,200000,100000,2,Low Income
+South Africa,-29,24,32000000,0,#DIV/0!,Upper Middle Income
+South Korea,37,127.5,126000000,20000000,6.3,High Income
+Sri Lanka,7,81,17500000,3500000,5,Lower Middle Income
+Switzerland,47,8,24000000, -   ,#VALUE!,High Income
+Taiwan ,23.5,121,40000000,5000000,8,High Income
+Thailand ,15,100,73100000,33000000,2.215151515,Upper Middle Income
+Tunisia,34,9,2500000,1000000,2.5,Lower Middle Income
+Turkey ,39,35,104500000,2250000,46.44444444,Upper Middle Income
+Ukraine,49,32,33200000,1600000,20.75,Lower Middle Income
+United Arab Emirates ,24,54,3000000,0,#DIV/0!,High Income
+United Kingdom,54,-2,457000000,45000000,10.15555556,High Income
+United States of America,38,-97,1210000000,150000000,8.066666667,High Income
+Uruguay,-33,-56,3700000,1000000,3.7,High Income
+Uzbekistan,41,64,2000000,500000,4,Lower Middle Income
+Venezuela,8,-66,10000000,5000000,2,Upper Middle Income
+Vietnam,16,106,80000000,25000000,3.2,Lower Middle Income
+Zimbabwe,-20,30,2000000,600000,3.333333333,Lower Middle Income

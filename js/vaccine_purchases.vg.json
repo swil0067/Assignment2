@@ -3,7 +3,7 @@
     "height": 250,
     "width": 450,
     "background": "rgb(223, 247, 255)",
-    "autosize": "none",
+    "title": "Number of Vaccines Purchased Per Capita",
     "layer": [
         {
             "projection": {
@@ -30,7 +30,7 @@
             "mark": "circle",
             "params": [
                 {
-                    "name": "hello",
+                    "name": "p",
                     "select": {
                         "type": "point",
                         "fields": [
@@ -45,16 +45,17 @@
                     {
                         "field": "country",
                         "type": "nominal",
-                        "title": "Country"
+                        "title": "Country/Entity"
                     },
                     {
                         "field": "doses_per_capita",
                         "type": "quantitative",
-                        "title": "Doses Purchased"
+                        "title": "Doses Purchased per Capita"
                     },
                     {
                         "field": "income_level",
-                        "type": "nominal"
+                        "type": "nominal",
+                        "title": "Income Level"
                     }
                 ],
                 "longitude": {
@@ -66,7 +67,9 @@
                     "type": "quantitative"
                 },
                 "size": {
-                    "field": "doses_per_capita"
+                    "field": "doses_per_capita",
+                    "type": "quantitative",
+                    "title": "Doses per Capita"
                 },
                 "color": {
                     "field": "income_level",
