@@ -17,7 +17,8 @@
                 }
             },
             "mark": {
-                "type": "geoshape"
+                "type": "geoshape",
+                "fill": "lightgray"
             }
         },
         {
@@ -30,7 +31,7 @@
             "mark": "circle",
             "params": [
                 {
-                    "name": "p",
+                    "name": "a",
                     "select": {
                         "type": "point",
                         "fields": [
@@ -73,6 +74,7 @@
                 },
                 "color": {
                     "field": "income_level",
+                    "title": "Income Level",
                     "type": "nominal",
                     "scale": {
                         "scheme": "set1"
