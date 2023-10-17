@@ -49,7 +49,7 @@
                 "field": "Percent of Population Vaccinated",
                 "title": "% Population Vaccinated",
                 "type": "quantitative",
-                "format": ".3%"
+                "format": ".0%"
             }
         ]
     }
