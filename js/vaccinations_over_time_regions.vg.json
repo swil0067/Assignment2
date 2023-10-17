@@ -43,7 +43,7 @@
                 "field": "percent_of_pop_newly_vacc",
                 "title": "% of Population Newly Vaccinated",
                 "type": "quantitative",
-                "format": ".5%"
+                "format": ".3%"
             }
         ],
         "color": {

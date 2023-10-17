@@ -77,7 +77,7 @@
                     "title": "Income Level",
                     "type": "nominal",
                     "scale": {
-                        "scheme": "set1"
+                        "scheme": "dark2"
                     }
                 }
             }

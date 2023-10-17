@@ -44,7 +44,8 @@
                     {
                         "field": "AIR_AUS_16_PLUS_FIRST_DOSE_PCT",
                         "title": "Percent of Population",
-                        "type": "quantitative"
+                        "type": "quantitative",
+                        "format": ".3%"
                     }
                 ],
                 "color": {
@@ -73,7 +74,8 @@
                     {
                         "field": "AIR_AUS_16_PLUS_SECOND_DOSE_PCT",
                         "title": "Percent of Population",
-                        "type": "quantitative"
+                        "type": "quantitative",
+                        "format": ".3%"
                     }
                 ],
                 "color": {
@@ -102,7 +104,8 @@
                     {
                         "field": "AIR_AUS_16_PLUS_THIRD_DOSE_PCT",
                         "title": "Percent of Population",
-                        "type": "quantitative"
+                        "type": "quantitative",
+                        "format": ".3%"
                     }
                 ],
                 "color": {
