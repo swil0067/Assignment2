@@ -1,9 +1,9 @@
-.background {
+.general {
     background-color: rgb(223, 247, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title {
-    font-size: large;
     text-align: center;
 }
 
@@ -12,15 +12,21 @@
     margin: auto;
 }
 
+.para_text {
+    margin-right: 100px;
+}
+
 #vaccinated_by_country {
     width: 100%;
     height: auto;
+    margin: auto;
 }
 
 .row {
     display: flex;
-  }
+    margin: auto;
+}
   
-  .column {
+.column {
     flex: 50%;
-  }
+}
